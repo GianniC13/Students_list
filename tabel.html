@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Note</title>
+    <!--When you use the <style> tag in your HTML file, you can write CSS rules that will apply to the elements in that document.  -->
+    <style>
+        td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <caption>Catalogul clasei a V a</caption>
+            <!-- the <thead> tag is part of HTML, used to define the header section of a table. 
+            It groups the header content, which typically contains a row of headings (<th> elements), 
+            and is placed inside the table structure. -->
+            <thead>
+                <tr>
+                    <th>Elev</th>
+                    <th>Nota Matematica</th>
+                    <th>Nota Biologie</th>
+                    <th>Nota Limba Romana</th>
+                </tr>
+            </thead>
+            <!--The <tbody> tag is used to group the body content in a table, separating it from the header (<thead>) and footer (<tfoot>) sections of the table.
+             The <tbody> element groups the rows (<tr>) that contain the actual data of the table. -->
+            <tbody>
+                <tr>
+                    <!--  used within a <table> element to define the data cells in a row. 
+                    Each <td> represents a single cell in a row, and it is typically used inside a <tr> (table row) element. -->
+                    <td>Ion Ionescu</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Ana Georgescu</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Vasile Vasilescu</td>
+                    <td>7</td>
+                    <td>10</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Tudor Pop</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Maria Marinescu</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Media clasei</strong></td>
+                    <td>8.4</td>
+                    <td>9.4</td>
+                    <td>8.6</td>
+                </tr>
+            <!--  It stands for "table footer" and is typically placed after the <thead> and <tbody> elements within a <table> element.
+            The <tfoot> element is used to contain summary or footer content for a table. 
+            This can include totals, summary data, or any other footer-related information that applies to the table as a whole.
+            It’s often used when you want to repeat the footer on each page in a print layout, making sure that the footer stays consistent and visible. -->
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
